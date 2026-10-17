@@ -476,6 +476,9 @@ h1 em, h2 em {
 .car-slide figcaption strong { font-family: "Playfair Display", serif; font-style: italic; font-weight: 600; font-size: 1.3rem; line-height: 1.2; }
 .car-slide figcaption span { color: var(--gold); font-size: .74rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 
+/* Botão abaixo do carrossel de trabalhos */
+.car-cta { display: flex; justify-content: center; margin-top: 36px; }
+
 /* Lightbox */
 .lightbox {
   position: fixed; inset: 0; z-index: 100; display: grid; place-items: center;
